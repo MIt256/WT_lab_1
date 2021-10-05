@@ -1,4 +1,4 @@
-package classes_and_objects.task9.classes;
+package task9.classes;
 
 public class Ball {
 

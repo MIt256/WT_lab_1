@@ -1,7 +1,7 @@
-package classes_and_objects.task9.runner;
+package task9.runner;
 
-import classes_and_objects.task9.classes.Ball;
-import classes_and_objects.task9.classes.Basket;
+import task9.classes.Ball;
+import task9.classes.Basket;
 
 import java.util.Scanner;
 
