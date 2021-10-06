@@ -2,7 +2,7 @@ package java_fundamentals;
 
 import java.util.*;
 
-public class task8 {
+public class Task8 {
 
     private static final int N = 5;                                  // Array size
     private static final List<Integer> firstArr = new ArrayList<>();

@@ -2,7 +2,7 @@ package java_fundamentals;
 
 import java.util.Scanner;
 
-public class task5 {
+public class Task5 {
     public static void main(String[] args) {
         int count = 0;
         Scanner in = new Scanner(System.in);
