@@ -1,4 +1,4 @@
-package java_fundamentals;
+package java_fundamentals.task1_8;
 
 import java.util.*;
 

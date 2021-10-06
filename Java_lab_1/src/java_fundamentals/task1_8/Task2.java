@@ -1,8 +1,8 @@
-package java_fundamentals;
+package java_fundamentals.task1_8;
 
 import java.util.Scanner;
 
-public class Task1 {
+public class Task2 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.print("Enter number x: ");
@@ -11,8 +11,10 @@ public class Task1 {
         int y = in.nextInt();
         in.close();
 
-        double result = ((1 + Math.pow(Math.sin(x + y), 2)) / (2 + Math.abs(x - ((2 * x)/(1 + Math.pow(x * y, 2)))))) + x;
-
-        System.out.println("Result is " + result);
+        if (((y > 5) || (y < -3)) || ((y <= 0) && ((x > 6) || (x < -6)) || ((y >= 0) && ((x > 4) || (x < -4))))) {
+            System.out.println("False");
+        } else {
+            System.out.println("True");
+        }
     }
 }
