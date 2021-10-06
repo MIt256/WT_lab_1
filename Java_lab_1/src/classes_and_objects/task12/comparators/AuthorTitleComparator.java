@@ -1,6 +1,6 @@
-package task12.comparators;
+package classes_and_objects.task12.comparators;
 
-import task12.Book;
+import classes_and_objects.task12.Book;
 
 import java.util.Comparator;
 
@@ -9,7 +9,7 @@ public class AuthorTitleComparator implements Comparator<Book> {
     private final Comparator<Book> comparator;
 
     public AuthorTitleComparator() {
-        this.comparator = new task12.comparators.AuthorComparator().thenComparing(new TitleComparator());
+        this.comparator = new AuthorComparator().thenComparing(new TitleComparator());
     }
 
     @Override

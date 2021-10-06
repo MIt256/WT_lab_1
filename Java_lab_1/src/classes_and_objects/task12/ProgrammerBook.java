@@ -1,4 +1,4 @@
-package task12;
+package classes_and_objects.task12;
 
 public class ProgrammerBook extends Book{
     private String language;

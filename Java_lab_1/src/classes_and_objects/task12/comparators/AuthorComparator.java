@@ -1,7 +1,7 @@
-package task12.comparators;
+package classes_and_objects.task12.comparators;
 
 import java.util.Comparator;
-import task12.Book;
+import classes_and_objects.task12.Book;
 
 public class AuthorComparator implements Comparator<Book> {
     @Override

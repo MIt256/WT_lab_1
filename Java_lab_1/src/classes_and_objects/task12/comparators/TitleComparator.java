@@ -1,6 +1,6 @@
-package task12.comparators;
+package classes_and_objects.task12.comparators;
 
-import task12.Book;
+import classes_and_objects.task12.Book;
 
 import java.util.Comparator;
 

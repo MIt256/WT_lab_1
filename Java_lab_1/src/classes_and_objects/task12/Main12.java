@@ -1,6 +1,6 @@
-package task12;
+package classes_and_objects.task12;
 
-import task12.comparators.*;
+import classes_and_objects.task12.comparators.*;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -8,7 +8,7 @@ import java.util.Comparator;
 public class Main12 {
     public static void main(String[] args) {
         Book book1 = new Book("A", "Author", 13, 1);
-        task12.Book.setEdition(12);
+        Book.setEdition(12);
         Book book2 = new Book("B", "SecondAuthor", 12, 2);
 
         System.out.println("Equals check:");
